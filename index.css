@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    margin-left: 100px;
+    height: 600px;
+    width: 1200px;
+    border-style: groove;
+    position: relative;
+}
+
+h2 {
+    font-size: 50px;
+    margin-left: 70px;
+    font-style: oblique;
+}
+
+.programmes {
+    margin-left: 300px;
+    background: rgb(176, 175, 175);
+    position: absolute;
+    color: white;
+    height: 5px;
+    width: 270px;
+    text-align: center;
+    right: 1000px;
+    top: 965px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 45px 0;
+    cursor: pointer;
+}
+
+
+#subtext {
+    padding: 20px 0;
+    color: rgb(152, 152, 237);
+    font-size: small;
+    font-weight: 100px;
+    
+}
+
+#undergraduates {
+    margin-right: 0px;
+    margin-left: 0px;
+    left: 470px;
+}
+
+#MPhil-programmes {
+    margin-right: 0px;
+    margin-left: 0px;
+    left: 770px;
+}
+
+#PhD-programmes {
+    left: 770px;
+    width: 230px;
+}
+
+
