@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -34,16 +34,6 @@ section {
     padding: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 img {
     margin-left: 100px;
     height: 600px;
@@ -67,7 +57,7 @@ h2 {
     width: 270px;
     text-align: center;
     right: 1000px;
-    top: 965px;
+    top: 960px;
     font-weight: bolder;
     font-size: larger;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -101,4 +91,70 @@ h2 {
     width: 230px;
 }
 
+.event {
+    height: 240px;
+    width: 400px;
+    right: 0px;
+    bottom: 0px;
+    top: 120px;
+    float: left;
+   
+
+}
+
+.departmental-event {
+    font-size: larger;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+ }
+ 
+ .text {
+    margin-right: 1px;
+    padding-top: 200px;
+    margin-left: 10px;
+}
+
+#paragraph {
+    right: 300px;
+}
+
+.footer {
+    background-color: #333;
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+    top: 200px;
+    color: white;
+}
+
+.academics {
+    margin-left: 20px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+}
+
+.research {
+    margin-left: 390px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 350px;
+}
+
+#about-department {
+    margin-left: 580px;
+    bottom: 505px;
+}
+
+#location {
+    margin-left: 920px;
+    bottom: 695px;
+}
+
+#phone {
+    bottom: 690px;
+}
 
