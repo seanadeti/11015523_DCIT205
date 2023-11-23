@@ -5,6 +5,12 @@
     font-family: "Arial", sans-serif;
 }
 
+body {
+    background: url(ugcheck.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 .event-content {
     width: 100%;
 }
@@ -27,15 +33,40 @@
     text-transform: uppercase;
 }
 
-.event-content .section-content .title p {
-    font-size: 19px;
-    color: #5b5b5b;
-    margin-top: 20px;
-}
-
 .event-content .section-content .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     margin: 24px auto;
+
+}
+
+.event-content .section-content .cards .card {
+    width: 100%;
+    background-color: rgb(167, 164, 164);
+    position: relative;
+
+}
+
+.event-content .section-content .cards .card img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.event-content .section-content .cards .card .art {
+    padding: 15px 20px;
+}
+
+.event-content .section-content .cards .card .art h4 {
+    font-size: 25px;
+}
+
+.event-content .section-content .cards .card .art p {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+#paragraph {
+    font-size: 30px;
 }
