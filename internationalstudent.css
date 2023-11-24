@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    background-color: #e1dede;;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.admission {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.admission p{
+    padding-top: 20px;
+}
+
+img {
+    padding-top: 50px;
+}
+
+.list {
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.payment {
+    text-align: left;
+    padding-left: 30px;
+}
