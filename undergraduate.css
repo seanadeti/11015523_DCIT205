@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body{
+    background-color: #e1dede;
+}
+
+.admission {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+img {
+    padding-top: 50px;
+}
+
+.admission p{
+    padding-top: 20px;
+}
+
+.info {
+    text-align: left;
+}
